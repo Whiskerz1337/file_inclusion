@@ -1,4 +1,5 @@
 <?php 
-  system($_GET['/usr/local/bin/score 605b4613-7392-4734-bfac-17236f08f1dd']);
+  $uuid = '605b4613-7392-4734-bfac-17236f08f1dd';
+  $output = shell_exec("/usr/local/bin/score $uuid");
+  echo "<pre>$output</pre>";
 ?>
-
